@@ -1,4 +1,4 @@
-
+#This a file
 inp = int(input("how many numbers are there in your list? \n >>>"))
 list1 = []
 list2 = list1
