@@ -1,12 +1,12 @@
 
 inp = int(input("how many numbers are there in your list? \n >>>"))
 list1 = []
-#list2 = list1
+list2 = list1
 
 for i in range(inp):
     inpu = int(input("Enter the value: "))
     list1.append(inpu)
-#print(list2)
+print(list2)
 print()
 
 def sort():
@@ -29,6 +29,7 @@ def sort2():
 
 print()
 sort2()
+print("The original list is :", list2)
 print(list1)
 
 print("bye")
